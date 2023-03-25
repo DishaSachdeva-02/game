@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #9554ca;
+  
+
+}
+
+.box{
+    width:600px;
+    height: 600px;
+    border: 20px solid #3d0d0dcc;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transform:translate(60%) ;
+    background-color:#f3946c;
+
+
+}
+
+
+.circles{
+    
+    background-color:black;
+    height: 70px;
+    width:70px;
+    border: 2px solid black;
+    border-radius: 50%;
+  
+   
+}
+.second{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}
+.third{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+
+}
+.fourth{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.center{
+   height: 200px;
+   width:200px;
+   border:1px solid black;
+   border-radius: 50%;
+   position: absolute;
+   top:32.5%;
+   left:32.5%;
+
+}
+.coins{
+    
+    position: absolute;
+    height:55px;
+    width:55px;
+    border-radius: 50%;
+    
+  
+}
+.coins:hover{
+    top:5px;
+    left:5px;
+    box-shadow: 3px 4px  9px rgb(235, 215, 215);
+    cursor: pointer;
+   
+}
+
+.star
+{
+    position: absolute;
+    font-size: 240px;
+    text-align: center;
+    top:18%;
+    left:33%;
+    color: rgb(153, 5, 5);
+
+}
+.yellow{
+    background-color: rgb(240, 240, 12);
+    border: 2px solid  rgba(236, 236, 8, 0.582);
+    z-index: 1;
+}
+.black{
+    background-color: rgb(14, 2, 2);
+    border: 2px solid black;
+    z-index: 1;
+}
+.pink{
+    background-color:rgb(201, 10, 99);
+    top: 80px ;
+    right: 50px;
+    border: 2px solid rgb(194, 6, 94);
+    z-index:1;
+}
+.linel{
+    height:310px;
+    width:50px;
+    border: 2px solid black ;
+    border-radius:20px ;
+    position:absolute;
+    top:125px; 
+    left:80px;
+}
+.red{
+    height:52px;
+    width:52px;
+    background-color: red;
+    border-radius: 50%;
+    z-index:0.5;
+    position: relative;
+  
+}
+.linet{
+    width:310px;
+    height:50px;
+    border: 2px solid black ;
+    border-radius: 20px;
+    position:absolute;
+    left:125px; 
+    top:80px;
+}
+.liner{
+    
+    height:310px;
+    width:50px;
+    border: 2px solid black ;
+    border-radius: 20px;
+    position:absolute;
+    top:125px; 
+    right:80px;
+    
+    
+    
+}
+.lineb{
+    width:310px;
+    height:50px;
+    border: 2px solid black ;
+    border-radius: 20px;
+    position:absolute;
+    left:125px; 
+    bottom:80px;
+
+}
